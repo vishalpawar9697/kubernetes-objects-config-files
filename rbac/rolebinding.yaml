@@ -3,7 +3,7 @@ kind: RoleBinding
 metadata:
   name: read-pods
 subjects:
-- kind: User
+ kind: User
   name: suraj
   apiGroups: rbac.authorization.k8s.io
 roleRef:
