@@ -6,7 +6,6 @@ metadata:
 subjects:
 - kind: User
   name: suraj
-  apiGroups: rbac.authorization.k8s.io
 roleRef:
   kind: Role 
   name: myrole
