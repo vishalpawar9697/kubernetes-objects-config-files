@@ -37,3 +37,13 @@ Make the kubectl binary executable.
 Move the binary in to your PATH.
 
  ********* sudo mv ./kubectl /usr/local/bin/kubectl
+
+=====================================================================================
+
+***************  For install minikube in ubuntu ********************
+=====================================================================================
+
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
+sudo rpm -Uvh minikube-latest.x86_64.rpm
+
+
